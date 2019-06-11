@@ -1,5 +1,7 @@
 ## GoogleMap_TimeLine_navigation
-Google Maps and Sensor Listview Project
+
+Google Map으로 TimeLine으로 실시간 위치를 SQLite에 저장하면서 다시돌아가는 방향을 자기장 센서로 방향을 알려준다.
+
 #### Android의 자기장 센서를 이용하여 다시돌아가는 방향을 표현
 ```java
 private String getDirectionFromDegrees(float degrees) {
