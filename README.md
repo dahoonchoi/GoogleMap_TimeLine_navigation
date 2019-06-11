@@ -28,8 +28,8 @@ private String getDirectionFromDegrees(float degrees) {
             return "NW";
         }
 
-        return null;
-    }```
+        return null```
+    
     
     ## 내부 DB의 SQLite 를 사용하여 Select문을 DESC로 내림차순으로 반대방향이 처음으로 오게 SQL문
     ```java
