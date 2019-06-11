@@ -1,5 +1,6 @@
 # GoogleMap_TimeLine_navigation
 Google Maps and Sensor Listview Project
+##Android의 자기장 센서를 이용하여 다시돌아가는 방향을 표현
 ```java
 private String getDirectionFromDegrees(float degrees) {
         if (degrees >= -22.5 && degrees < 22.5) {
