@@ -1,6 +1,6 @@
 # GoogleMap_TimeLine_navigation
 Google Maps and Sensor Listview Project
-##Android의 자기장 센서를 이용하여 다시돌아가는 방향을 표현
+#### Android의 자기장 센서를 이용하여 다시돌아가는 방향을 표현
 ```java
 private String getDirectionFromDegrees(float degrees) {
         if (degrees >= -22.5 && degrees < 22.5) {
@@ -32,7 +32,7 @@ private String getDirectionFromDegrees(float degrees) {
     }
 ```
     
-## 내부 DB의 SQLite 를 사용하여 Select문을 DESC로 내림차순으로 반대방향이 처음으로 오게 SQL문
+#### 내부 DB의 SQLite 를 사용하여 Select문을 DESC로 내림차순으로 반대방향이 처음으로 오게 SQL문
 ```java
      public Cursor getListContents3(String Disnum) {
         SQLiteDatabase db = this.getWritableDatabase();
