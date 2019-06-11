@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/coor"
+    >
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+
+        <ImageView
+            android:id="@+id/pointer"
+            android:layout_width="422dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:src="@drawable/compass" />
+
+        <!--tools:layout_editor_absoluteX="222dp"-->
+        <!--tools:layout_editor_absoluteY="0dp"-->
+
+
+    </LinearLayout>
+
+    <fragment
+        android:id="@+id/map2"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="25dp"
+        android:layout_height="32dp"
+        ></fragment>
+
+    <ImageView
+        android:id="@+id/se"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:layout_anchor="@+id/linearLayout"
+        app:layout_anchorGravity="left|top"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/sign" />
+
+    <ImageView
+        android:id="@+id/s"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:layout_anchor="@+id/linearLayout"
+        app:layout_anchorGravity="top|center"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/sign" />
+
+    <ImageView
+        android:id="@+id/sw"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:layout_anchor="@+id/linearLayout"
+        app:layout_anchorGravity="right|top"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/sign" />
+
+    <ImageView
+        android:id="@+id/e"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:visibility="invisible"
+        app:layout_anchor="@+id/linearLayout"
+        app:layout_anchorGravity="left|center"
+        app:srcCompat="@drawable/sign" />
+
+    <ImageView
+        android:id="@+id/w"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:layout_anchor="@+id/linearLayout"
+        app:layout_anchorGravity="right|center"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/sign" />
+
+    <ImageView
+        android:id="@+id/ne"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:layout_anchor="@+id/linearLayout"
+        app:layout_anchorGravity="left|bottom"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/sign" />
+
+    <ImageView
+        android:id="@+id/n"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:layout_anchor="@+id/linearLayout"
+        app:layout_anchorGravity="bottom|center"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/sign" />
+
+    <ImageView
+        android:id="@+id/nw"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:layout_anchor="@+id/linearLayout"
+        app:layout_anchorGravity="right|bottom"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/sign" />
+
+
+
+</android.support.design.widget.CoordinatorLayout>

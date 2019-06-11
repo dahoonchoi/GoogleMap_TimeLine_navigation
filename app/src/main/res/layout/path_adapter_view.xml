@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100"
+    >
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="85"
+        android:id="@+id/timelist"
+        android:textSize="20dp"
+        android:layout_margin="15dp"
+        />
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/timedate"
+        android:layout_weight="15"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:layout_margin="15dp"
+        />
+
+
+
+</LinearLayout>
