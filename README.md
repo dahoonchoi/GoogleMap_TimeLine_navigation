@@ -1,6 +1,6 @@
 # GoogleMap_TimeLine_navigation
 Google Maps and Sensor Listview Project
-'''java
+```java
 private String getDirectionFromDegrees(float degrees) {
         if (degrees >= -22.5 && degrees < 22.5) {
             return "N";
@@ -29,4 +29,4 @@ private String getDirectionFromDegrees(float degrees) {
 
         return null;
     }
-    '''
+    ```
