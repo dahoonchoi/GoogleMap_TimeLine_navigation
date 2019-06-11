@@ -1,4 +1,4 @@
-# GoogleMap_TimeLine_navigation
+## GoogleMap_TimeLine_navigation
 Google Maps and Sensor Listview Project
 #### Android의 자기장 센서를 이용하여 다시돌아가는 방향을 표현
 ```java
